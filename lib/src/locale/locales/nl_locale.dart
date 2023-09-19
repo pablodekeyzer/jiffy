@@ -27,7 +27,7 @@ class NlRelativeTime extends RelativeDateTime {
   String suffixFromNow() => '';
   @override
   String lessThanOneMinute(int seconds) =>
-      seconds > 0 ? 'op dit moment' : 'een ogenblik';
+      seconds > 0 ? 'een paar seconden' : 'een ogenblik';
   @override
   String aboutAMinute(int minutes) => 'een minuut';
   @override
